@@ -1,5 +1,5 @@
 
 <template>
-    <div>HOLA DESDE About  </div>
+    <div>HOLA DESDE ABOUT  </div>
 
 </template>

@@ -1,5 +1,5 @@
 <template>
-<div>Hola desde home</div>
+<div>HOLA DESDE HOME</div>
 
 
 </template>

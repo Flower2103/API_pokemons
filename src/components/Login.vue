@@ -1,3 +1,3 @@
 <template>
-    <div>HOLA DESDE Login</div>
+    <div>HOLA DESDE LOGIN</div>
 </template>

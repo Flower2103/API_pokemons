@@ -6,6 +6,7 @@ import { useRoute, useRouter } from 'vue-router';
 const route = useRoute() //acceso a los parametros URL actual
 const router = useRouter() //navegar entre rutas
 const pokemon = ref(null) //VAR reactiva, guarda respuesta de la API, es decir datos de los pokemons
+const shiny = ref(false)
 
 //funcion para volver 
 const back = () => {
@@ -30,12 +31,15 @@ getData() //ejecucion cuando el componente carga
     <div class="min-h-screen bg-gray-100 flex items-center justify-center p-8">
         <div v-if="pokemon" class="bg-white rounded-2xl shadow-lg p-8 max-w-sm w-full text-center"> <!--si llegan los datos-->
             <!--usar imagen frontal por defecto, nombre y id-->
+            <div class="relative inline-block">
             <img 
-                :src="pokemon.sprites.front_default" 
+                :src="shiny ? pokemon.sprites.front_shiny : pokemon.sprites.front_default" 
                 :alt="pokemon.name"
-                class="w-40 h-40 mx-auto"
+                class="w-40 h-40 mx-auto cursor-pointer hover:scale-110 transition-transform"
+                @click="shiny = !shiny"
             />
-
+            </div>
+            
             <h1 class="text-3xl font-bold capitalize text-yellow-500 mb-2">{{ pokemon.name }}</h1>
             <p class="text-gray-500 mb-4">ID: #{{ pokemon.id }}</p>
 
