@@ -5,6 +5,9 @@ Aplicación web para explorar Pokémons usando Vue 3 y la [PokéAPI](https://pok
 Proyecto desarrollado en la asignatura de Desarrollo Web II.
 Estudiante: Flor Mayon.
 
+🌎🛜
+https://flower2103.github.io/API_pokemons/
+
 ## 🚀 Tecnologías
 
 - Vue 3 (Composition API).
