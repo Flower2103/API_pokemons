@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/API_pokemons/',
   plugins: [
     tailwindcss(),
     vue(),
