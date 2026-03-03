@@ -1,38 +1,30 @@
-# rutasII
+# 🔴 Pokédex Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación web para explorar Pokémons usando Vue 3 y la [PokéAPI](https://pokeapi.co/).
 
-## Recommended IDE Setup
+Proyecto desarrollado en la asignatura de Desarrollo Web II.
+Estudiante: Flor Mayon.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Tecnologías
 
-## Recommended Browser Setup
+- Vue 3 (Composition API).
+- Vue Router.
+- Axios.
+- Tailwind CSS.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## ✨ Funcionalidades
 
-## Customize configuration
+- Listado de todos los Pokémons con imagen y tipo.
+- Paginación.
+- Vista detalle con estadísticas, habilidades y movimientos.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 📦 Instalación
 
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 🌐 API
 
-```sh
-npm run build
-```
+Usa [PokéAPI](https://pokeapi.co/) — gratuita y sin autenticación.
